@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wave">
+            <img src="bg.png" alt="">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Types</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <img src="logo.png" alt="">
+        </nav>
+
+        <div class="main-content">
+
+            <div class="image-pista">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img3.png" alt=""></div>    
+                    </div> 
+                </div>
+            </div>
+            <div class="main-text">
+                <h1>The Pistachios</h1>
+                <p>𝒫𝒾𝓈𝓉𝒶𝒸𝒽𝒾𝑜𝓈 𝒶𝓇𝑒 𝒹𝑒𝓁𝒾𝒸𝒾𝑜𝓊𝓈, 𝓃𝓊𝓉𝓇𝒾𝑒𝓃𝓉-𝓇𝒾𝒸𝒽 𝓃𝓊𝓉𝓈, 𝓀𝓃𝑜𝓌𝓃 𝒻𝑜𝓇 𝓉𝒽𝑒𝒾𝓇 𝓈𝓌𝑒𝑒𝓉 𝒶𝓃𝒹 𝓈𝒶𝓋𝑜𝓇𝓎 𝓉𝒶𝓈𝓉𝑒. 𝒯𝒽𝑒𝓎 𝑜𝒻𝒻𝑒𝓇 𝒽𝑒𝒶𝓁𝓉𝒽 𝒷𝑒𝓃𝑒𝒻𝒾𝓉𝓈, 𝒾𝓃𝒸𝓁𝓊𝒹𝒾𝓃𝑔 𝒽𝑒𝒶𝓇𝓉 𝒽𝑒𝒶𝓁𝓉𝒽 𝒶𝓃𝒹 𝒶𝓃𝓉𝒾𝑜𝓍𝒾𝒹𝒶𝓃𝓉𝓈.</p>
+                <button>Know More</button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="box">
+                <div class="image">
+                    <img src="img4.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>100% Organic</h3>
+                    <p>𝔑𝔲𝔱𝔯𝔦𝔢𝔫𝔱-𝔯𝔦𝔠𝔥</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img5.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Not Expensive</h3>
+                    <p>𝔗𝔥𝔯𝔦𝔣𝔱𝔶 𝔞𝔫𝔡 𝔟𝔲𝔡𝔤𝔢𝔱-𝔠𝔬𝔫𝔰𝔠𝔦𝔬𝔲𝔰.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img6.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Super Healthy</h3>
+                    <p>ℜ𝔞𝔡𝔦𝔞𝔱𝔦𝔫𝔤 𝔭𝔢𝔞𝔨 𝔳𝔦𝔱𝔞𝔩𝔦𝔱𝔶 𝔴𝔦𝔱𝔥 𝔞 𝔪𝔞𝔤𝔫𝔢𝔱𝔦𝔠 𝔤𝔩𝔬𝔴 𝔬𝔣 𝔴𝔢𝔩𝔩-𝔟𝔢𝔦𝔫𝔤.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+        });
+      </script>
+</body>
+
+</html>
